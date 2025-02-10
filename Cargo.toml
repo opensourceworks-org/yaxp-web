@@ -1,0 +1,13 @@
+[package]
+name = "yaxp-web"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+# yaxp-core = "0.1.1"
+# yaxp-core = { path = "../../crates/yaxp-core", version = "0.1.1" }
+yew = { version = "0.21.0", features = ["csr"] }
+# yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
+[profile.dev]
+debug = false
